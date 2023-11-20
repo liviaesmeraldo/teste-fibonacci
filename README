@@ -25,6 +25,14 @@ No terminal do VS code
 - npm install --save-dev jest (baixando e instalando o Jest para realizar os testes)
 - npx jest test/fibonacci.test.js (executando o teste contido no arquivo)
 
+Para adicionar um repositório ao github
+- git init
+- git branch
+- git commit -m "first commit"
+- git branch -M master
+- git remote add origin https://github.com/liviaesmeraldo/teste-fibonacci.git
+- git push -u origin master
+
 ## Contribuição 
 
 Esse projeto pode ser testado novamente, e incrementado. Assim como, feedback construtivo é bem- vindo, caso queira incluir informações, e ou relatar problemas.
